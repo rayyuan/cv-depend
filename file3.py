@@ -10,7 +10,7 @@ def helper1():
     f=6
     another_func()
 
-def run2();
+def run2():
     initialize_metadata()
     another_func()
     a=1
