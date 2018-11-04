@@ -11,6 +11,7 @@ def initialize_metadata():
     METADATA["comics sent"] = METADATA["comics sent"].format(*letters)
     STAT_START_COL
     METADATA["MRCN"] = scrape_utils.most_recent_comic_num()
+    call_important()
 
 def run_setup():
     # CREATE SHEETS].value = md_items[i][1]

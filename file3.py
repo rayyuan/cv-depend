@@ -9,7 +9,9 @@ def helper1():
     e=5
     f=6
     another_func()
-
+def call_important():
+    a=1
+    file2.file2func()
 def run2():
     initialize_metadata()
     another_func()
