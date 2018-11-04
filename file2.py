@@ -5,7 +5,7 @@ def file2func(arg1, arg2):
     get_time()
     pass
 
-def Important():
+def important():
     file1.reset()
     file3.run2()
     a=1
@@ -56,6 +56,11 @@ def Important():
     b=2
     c=3
     d=4
+    
+def recursive():
+    file1.run_setup()
+    recursive()
+
 def another_func():
     print()
     size(variable)
